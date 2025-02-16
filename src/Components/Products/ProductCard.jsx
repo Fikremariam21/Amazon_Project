@@ -1,10 +1,12 @@
 import React from 'react'
 import { Rating } from '@mui/material'
 import CurrencyFormat from '../CurrencyFormat/CurrencyFormat'
+import styles from './product.module.css'
+
 function ProductCard({product}) {
     const {image, title, id, rating, price}= product;
   return (
-    <div>
+    <div className= { styles.card_container}>
         <a> 
             <img src={image} alt="" />
         </a>
