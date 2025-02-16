@@ -53,6 +53,7 @@
   /* Comment Code */
   
    .search {
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,7 +69,8 @@
   
   .search select,
   .search input {
-    padding: 10px;
+    padding: 6px;
+    height: 40px;
     font-weight: bold;
     outline: 1px solid white;
   }
@@ -91,6 +93,7 @@
     padding: 7px;
     background: #febd69;
     color: #1a1a1a;
+    height: 45px;
   } 
   
   /* Comment Code */
